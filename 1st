@@ -1,6 +1,5 @@
 # operating-system
 #include <iostream>
-#include <unistd.h>
 int main()
 {
     int x = 6;
@@ -24,4 +23,5 @@ int main()
         sleep(2);
         std::cout<<"Parent Process :: x = "<<x<<std::endl;
     }
+     return0;
 }
