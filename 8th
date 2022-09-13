@@ -24,4 +24,5 @@ for i in processList:
         s.remove(i)
         s.append(i)
      
-print("{}".format(pageFaults))
+print("no.of pagefaults = ","{}".format(pageFaults))
+
