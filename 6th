@@ -2,7 +2,7 @@
 import threading
 import time
 
-CAPACITY = 10
+CAPACITY = int(input("enter n ="))
 buffer = [-1 for i in range(CAPACITY)]
 in_index = 0
 out_index = 0
@@ -70,3 +70,4 @@ producer.start()
 
 producer.join()
 consumer.join()
+
